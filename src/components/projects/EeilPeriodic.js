@@ -19,7 +19,7 @@ export default function EeilPeriodic() {
 
     const handleChange = () => {
         setAuthors3(!authors3);
-        authorsDisplay("mono-author2", "mono-3authors");
+        authorsDisplay("periodic-author2", "periodic-3authors");
     }
 
     const handleFromPageChange = (e) => {
@@ -87,7 +87,7 @@ export default function EeilPeriodic() {
 
     return (
         <StyledEeilSrc>
-            <div class="src-bg" id="periodic">
+            <div className="src-bg" id="periodic">
                 <div className="h2 mt-0 mb-4 d-flex flex-column justify-content-center align-items-center">Périodique</div>
                 <form id="periodic-info">
                     <p>Titre de l'article dans le périodique</p>
@@ -137,12 +137,12 @@ export default function EeilPeriodic() {
                         <input type="text" name="periodic-url" value={url} onChange={(e) => { setUrl(e.target.value.trim()) }} />
                     </StyledEeil1Grid20>
                     <StyledEeilGenerate>
-                        <button type="button" class="generate-button" onClick={periodicGenerate}>Générer ma source</button>
+                        <button type="button" className="generate-button" onClick={periodicGenerate}>Générer ma source</button>
                     </StyledEeilGenerate>
-                    <div id="periodic-alert" class="alert-box invisible">
-                        <span class="alert-text">Veuillez remplir tous les champs nécessaires</span>
+                    <div id="periodic-alert" className="alert-box invisible">
+                        <span className="alert-text">Veuillez remplir tous les champs nécessaires</span>
                     </div>
-                    <div id="periodic-sources" class="invisible">
+                    <div id="periodic-sources" className="invisible">
                         <div className="h4" id="periodic-source-fr"></div>
                         <div className="h4" id="periodic-source-en"></div>
                         <button

@@ -64,7 +64,7 @@ export default function EeilWebsite() {
     }
     return (
         <StyledEeilSrc>
-            <div class="src-bg" id="website">
+            <div className="src-bg" id="website">
                 <div className="h2 mt-0 mb-4 d-flex flex-column justify-content-center align-items-center">Site Internet</div>
                 <form id="web-info">
                     <p>Titre du site</p>
@@ -99,13 +99,13 @@ export default function EeilWebsite() {
                     <p>Date de consultation</p>
                     <input type="date" id="web-date" name="web-refdate" value={refdate} onChange={(e) => { setRefdate(e.target.value) }} />
                     <StyledEeilGenerate>
-                        <button type="button" class="generate-button" onClick={websiteGenerate}>Générer ma
+                        <button type="button" className="generate-button" onClick={websiteGenerate}>Générer ma
                             source</button>
                     </StyledEeilGenerate>
-                    <div id="web-alert" class="alert-box invisible">
-                        <span class="alert-text">Veuillez remplir tous les champs nécessaires</span>
+                    <div id="web-alert" className="alert-box invisible">
+                        <span className="alert-text">Veuillez remplir tous les champs nécessaires</span>
                     </div>
-                    <div id="web-sources" class="invisible">
+                    <div id="web-sources" className="invisible">
                         <div className="h4" id="web-source-fr"></div>
                         <div className="h4" id="web-source-en"></div>
                         <button

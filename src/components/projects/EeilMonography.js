@@ -137,10 +137,10 @@ export default function EeilMonography() {
                         <input type="text" name="mono-url" value={url} onChange={(e) => { setUrl(e.target.value) }} />
                     </StyledEeil1Grid20>
                     <StyledEeilGenerate>
-                        <button type="button" class="generate-button" onClick={monoGenerate}>Générer ma source</button>
+                        <button type="button" className="generate-button" onClick={monoGenerate}>Générer ma source</button>
                     </StyledEeilGenerate>
                     <div id="mono-alert" className="alert-box invisible">
-                        <span class="alert-text">Veuillez remplir tous les champs nécessaires</span>
+                        <span className="alert-text">Veuillez remplir tous les champs nécessaires</span>
                     </div>
                     <div id="mono-sources" className="invisible">
                         <div className="h4" id="mono-source-fr" ></div>
