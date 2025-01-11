@@ -38,9 +38,15 @@ export default function Header() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
-    const handleMenuItemClick = () => {
+    const handleMenuItemClick = (event, targetId) => {
+        event.stopPropagation();
+        event.preventDefault();
         setMenuOpen(false);
         setHeaderVisible(false);
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+            targetElement.scrollIntoView({ behavior: "smooth" });
+        }
     };
 
     return (
@@ -59,9 +65,9 @@ export default function Header() {
                     </div>
                     {!isMobile ? (
                         <div className="d-flex flex-row align-items-center p-0 m-0">
-                            <StyledNav href="/#about">{t("navbar.about")}</StyledNav>
-                            <StyledNav href="/#experience">{t("navbar.experience")}</StyledNav>
-                            <StyledNav href="/#projects">{t("navbar.projects")}</StyledNav>
+                            <StyledNav onClick={(event) => handleMenuItemClick(event, 'about')}>{t("navbar.about")}</StyledNav>
+                            <StyledNav onClick={(event) => handleMenuItemClick(event, 'experience')}>{t("navbar.experience")}</StyledNav>
+                            <StyledNav onClick={(event) => handleMenuItemClick(event, 'projects')}>{t("navbar.projects")}</StyledNav>
                         </div>
                     ) : null}
                     <div className="settings d-flex flex-row justify-content-end align-items-center pt-0 mt-0">
@@ -98,9 +104,9 @@ export default function Header() {
             )}
             {isMobile && menuOpen ? (
                 <StyledOpenMenuDiv className="d-flex flex-column justify-content-center py-2">
-                    <StyledNav href="/#about" onClick={handleMenuItemClick}>{t("navbar.about")}</StyledNav>
-                    <StyledNav href="/#experience" onClick={handleMenuItemClick}>{t("navbar.experience")}</StyledNav>
-                    <StyledNav href="/#projects" onClick={handleMenuItemClick}>{t("navbar.projects")}</StyledNav>
+                    <StyledNav onClick={(event) => handleMenuItemClick(event, 'about')}>{t("navbar.about")}</StyledNav>
+                    <StyledNav onClick={(event) => handleMenuItemClick(event, 'experience')}>{t("navbar.experience")}</StyledNav>
+                    <StyledNav onClick={(event) => handleMenuItemClick(event, 'projects')}>{t("navbar.projects")}</StyledNav>
                 </StyledOpenMenuDiv>
             ) : null}
         </Headroom>

@@ -27,7 +27,7 @@ export const StyledHeader = styled.div`
   }
 `;
 
-export const StyledNav = styled.a`
+export const StyledNav = styled.div`
   padding: 0.25rem 1rem;
   cursor: pointer;
   text-decoration: none;

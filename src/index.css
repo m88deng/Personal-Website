@@ -106,7 +106,8 @@ p {
   color: var(--color-foreground) !important;
 }
 
-small, label {
+small,
+label {
   font-family: "Noto Sans", "Helvetica", sans-serif !important;
   font-size: 14px !important;
   letter-spacing: 15%;
@@ -123,6 +124,12 @@ ul {
 
 a:hover {
   color: var(--color-header) !important;
+}
+
+#about,
+#experience,
+#projects {
+  scroll-margin-top: 30px;
 }
 
 @media only screen and (max-width: 1007px) {
@@ -163,7 +170,7 @@ a:hover {
     font-size: 65px;
   }
 
-  .body{
+  .body {
     min-width: 624px;
   }
 }
