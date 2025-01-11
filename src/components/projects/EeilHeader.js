@@ -1,4 +1,4 @@
-import { StyledHeader, StyledNav } from "../../../styles/Header.styled"
+import { StyledHeader, StyledNav } from "../../styles/Header.styled"
 export default function EeilHeader() {
 
     const scrollToTop = () => {

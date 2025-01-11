@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { copyText, outFunc, authorsDisplay, authorsFormatter, dateFormatter } from "../../../utils/eeilUtils";
-import { StyledEeil1Grid20, StyledEeil2Grid20, StyledEeil2Grid5, StyledEeilGenerate, StyledEeilSrc } from "../../../styles/EeilCitation.styled";
+import { copyText, outFunc, authorsDisplay, authorsFormatter, dateFormatter } from "../../utils/eeilUtils";
+import { StyledEeil1Grid20, StyledEeil2Grid20, StyledEeil2Grid5, StyledEeilGenerate, StyledEeilSrc } from "../../styles/EeilCitation.styled";
 
 export default function EeilPeriodic() {
     const [title, setTitle] = useState();

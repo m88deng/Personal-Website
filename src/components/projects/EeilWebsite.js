@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { copyText, outFunc, authorsDisplay, authorsFormatter, dateFormatter } from "../../../utils/eeilUtils";
-import { StyledEeil1Grid20, StyledEeil2Grid5, StyledEeilSrc, StyledEeilGenerate } from "../../../styles/EeilCitation.styled";
+import { copyText, outFunc, authorsDisplay, authorsFormatter, dateFormatter } from "../../utils/eeilUtils";
+import { StyledEeil1Grid20, StyledEeil2Grid5, StyledEeilSrc, StyledEeilGenerate } from "../../styles/EeilCitation.styled";
 
 export default function EeilWebsite() {
     const [lname, setLname] = useState();
