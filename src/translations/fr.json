@@ -1,0 +1,225 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "illustrations": "Illustrations",
+    "shop": "Boutique"
+  },
+
+  "hero": {
+    "welcome": "Bienvenue dans le coin créatif du monde numérique de",
+    "titles": {
+      "softwareEngineer": "Étudiante en génie logicielle",
+      "frontendDeveloper": "Développeuse Front-End",
+      "uiuxDesigner": "Designer UI/UX",
+      "traditionalArtist": "Artiste traditionnelle"
+    }
+  },
+
+  "about": {
+    "description1": "Je m'appelle Melissa Deng, étudiante en génie logiciel à l'Université de Waterloo le jour, et artiste la nuit.",
+    "description2": "Passionnée par l'imagination et la résolution de problèmes, je cherche à offrir une expérience web fluide aux utilisateurs. Mon objectif ultime est de combiner la créativité et la fonctionnalité en transformant les idées en réalités grâce à mes compétences en programmation.",
+    "art": "Arts & Artisanat",
+    "music": "Musique",
+    "gaming": "Jeux & Loisirs",
+    "photography": "Photographie",
+    "languages": "Langages de programmation",
+    "languageStack": [
+      "Python",
+      "C",
+      "C++",
+      "Java",
+      "JavaScript",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "SQL"
+    ],
+    "technologies": "Technologies",
+    "technologyStack": [
+      "React",
+      "GraphQL",
+      "Node.js",
+      "Next.js",
+      "Bootstrap",
+      "Vite",
+      "OpenCV"
+    ],
+    "design": "Design",
+    "designStack": [
+      "Figma",
+      "Photoshop",
+      "Procreate",
+      "Clip Studio Paint",
+      "Final Cut Pro"
+    ]
+  },
+
+  "experience": [
+    {
+      "position": "Développeur Backend",
+      "company": "Intact Corporation Financière (IFC)",
+      "startDay": "Sep 2024",
+      "endDay": "Déc 2024",
+      "location": "Montréal, QC",
+      "workType": "Hybride",
+      "techStack": [
+        { "tech": "Java" },
+        { "tech": "Springboot" },
+        { "tech": "Maven" },
+        { "tech": "Kafka" },
+        { "tech": "Architecture de Microservices" },
+        { "tech": "Méthodologie Agile" },
+        { "tech": "CVE" }
+      ],
+      "description": "Intact Corporation Financière (IFC) est une compagnie d'assurance canadienne fondée en 1809. Avec plus de 30 000 employés, Intact est le plus grand fournisseur d'assurance de dommages au Canada.",
+      "bulletPoints": [
+        {
+          "text": "Renforcé la sécurité des six services de mon équipe en résolvant 95 % des CVE dans une architecture de microservices basée sur Spring Boot, en assurant la mise à jour des dépendances Maven pour atténuer les vulnérabilités et les risques."
+        },
+        {
+          "text": "Développé des fonctionnalités backend en utilisant MapStruct pour un mappage et une encapsulation efficaces des données, et implémenté des tests unitaires/composants pour améliorer la fonctionnalité, la fiabilité et l'efficacité des processus d'achat en ligne."
+        },
+        {
+          "text": "Exploité des outils comme Kafka, Dynatrace et des pratiques de développement piloté par les tests pour optimiser les performances et adapter les solutions au contexte technique et opérationnel d'Intact."
+        }
+      ]
+    },
+    {
+      "position": "Développeuse Front End",
+      "company": "The Altitude Platform",
+      "startDay": "Jan 2024",
+      "endDay": "Avr 2024",
+      "location": "Toronto, ON",
+      "workType": "Hybride",
+      "techStack": [
+        { "tech": "JavaScript" },
+        { "tech": "Typescript" },
+        { "tech": "HTML" },
+        { "tech": "CSS" },
+        { "tech": "React" },
+        { "tech": "Node" },
+        { "tech": "Next.js" },
+        { "tech": "Vite" },
+        { "tech": "UI/UX" }
+      ],
+      "description": "Située à Toronto, The Altitude Platform est une plateforme créative de médias basée sur le cloud. Elle aide les utilisateurs à gérer et à planifier leurs campagnes de marketing plus efficacement tout en garantissant une créativité unique.",
+      "bulletPoints": [
+        {
+          "text": "Redesigné le site web de l'entreprise en utilisant React.js et Next.js, ainsi augmentant l'engagement des utilisateurs de 30 %"
+        },
+        {
+          "text": "Développé un tableau de bord interactif en utilisant Vite et TypeScript pour suivre les performances financières de l'entreprise"
+        },
+        {
+          "text": "Créé plus de 15 unités publicitaires dynamiques avec HTML, CSS et JavaScript pour des campagnes de marketing réussies"
+        },
+        {
+          "text": "Assisté à la mise en œuvre de fonctionnalités alimentées par OpenAI GPT-4 au sein de la plateforme de l'entreprise, en utilisant Express.js et en respectant les principes de l'architecture MVC."
+        }
+      ]
+    },
+    {
+      "position": "Analyste de la qualité logicielle",
+      "company": "Infrastructures for Information (i4i)",
+      "startDay": "Mai 2023",
+      "endDay": "Sep 2023",
+      "location": "Toronto, ON",
+      "workType": "À distance",
+      "techStack": [
+        { "tech": "Python" },
+        { "tech": "XML" },
+        { "tech": "XSLT" },
+        { "tech": "Test de logiciels" },
+        { "tech": "Documentation" },
+        { "tech": "SDLC" },
+        { "tech": "Zoho" }
+      ],
+      "description": "i4i est une entreprise de logiciels indépendante spécialisée dans la gestion de documents XML / SGML, située à Toronto. En plus des tests manuels, j'ai également contribué à la création d'un nouvel outil interne qui simplifie la conversion des données Excel en contenu structuré avec des codes uniques, éliminant ainsi le besoin de manuellement saisir les données.",
+      "bulletPoints": [
+        {
+          "text": "Identifié 10% des défauts logiciels et confirmé 15 % des problèmes résolus en utilisant le suivi des bugs de Zoho"
+        },
+        {
+          "text": "Exploré différents types de tests, notamment les tests fonctionnels, non fonctionnels, de régression et de performance"
+        },
+        {
+          "text": "Utilisé XML pour la configuration et Python (ElementTree) pour convertir les données Excel en contenu structuré avec des numéros de code uniques"
+        },
+        {
+          "text": "Amélioré la portabilité du projet en normalisant les chemins d'accès aux fichiers et les E/S de fichiers"
+        },
+        {
+          "text": "Amélioré l'interface utilisateur en utilisant Python (Tkinter) pour la rendre plus conviviale"
+        }
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "GRTNow",
+      "description": "GRTNow est une plateforme de consultation des horaires et de planification du transport pour le réseau Grand River Transit (GRT) situé à Kitchener/Waterloo.",
+      "techStack": [
+        { "tech": "SQL" },
+        { "tech": ".Net" },
+        { "tech": "Javascript" },
+        { "tech": "React" },
+        { "tech": "Gestion de base de données" }
+      ]
+    },
+    {
+      "name": "Échecs",
+      "description": "Les échecs sont un jeu de stratégie abstrait pour deux joueurs sans éléments cachés ni d'éléments de hasard simulant une guerre entre deux royaumes.",
+      "techStack": [
+        { "tech": "Principes SOLID" },
+        { "tech": "C++" },
+        { "tech": "XQuartz" },
+        { "tech": "MVC Architecture" }
+      ]
+    },
+    {
+      "name": "EEIL-Style Citations",
+      "description": "EEIL-Style Citations est un outil automatisé de génération de citations destiné aux élèves du secondaire fréquentant l'École d'éducation internationale de Laval (EEIL).",
+      "techStack": [
+        { "tech": "React" },
+        { "tech": "Styled Components" },
+        { "tech": "Javascript" }
+      ],
+      "link": "/eeilcitation"
+    },
+    {
+      "name": "Site Web Événement Hackathon Global",
+      "description": "Dans le cadre d'un projet défi pour Hack The North, ce projet présente la page d'événement d'un hackathon permettant de visualiser et de filtrer tous les événements à venir.",
+      "techStack": [
+        { "tech": "React" },
+        { "tech": "Javascript" },
+        { "tech": "API" },
+        { "tech": "GraphQL" }
+      ],
+      "link": "https://melissa-htn-challenge.netlify.app/"
+    },
+    {
+      "name": "Tasteasy",
+      "description": "Tasteasy est une application mobile de génération de recettes qui facilite la prise de décision pour les repas en prenant en compte les ingrédients actuellement disponibles.",
+      "techStack": [
+        { "tech": "React Native" },
+        { "tech": "JavaScript" },
+        { "tech": "Développement mobile" }
+      ]
+    },
+    {
+      "name": "Emolock",
+      "description": "L'Emolock est une serrure électromagnétique basée sur les émotions qui se déverrouille lorsqu'elle reconnaît la séquence correcte d'émotions faciales.",
+      "techStack": [
+        { "tech": "Python" },
+        { "tech": "C++" },
+        { "tech": "Arduino" },
+        { "tech": "OpenCV" },
+        { "tech": "Deepface" }
+      ]
+    }
+  ]
+}

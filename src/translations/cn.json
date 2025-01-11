@@ -1,0 +1,227 @@
+{
+  "navbar": {
+    "home": "主页",
+    "about": "关于我",
+    "experience": "工作经验",
+    "projects": "项目",
+    "illustrations": "绘画作品",
+    "shop": "网店"
+  },
+
+  "hero": {
+    "welcome": "欢迎来到我的个人网站",
+    "titles": {
+      "softwareEngineer": "软件工程学生",
+      "frontendDeveloper": "前端工程师",
+      "uiuxDesigner": "UI/UX 设计师",
+      "traditionalArtist": "传统艺术家"
+    }
+  },
+
+  "about": {
+    "description1": "我是滑铁卢大学的软件工程学生，白天探索编程世界的奥秘，晚上则沉浸在艺术创作的乐趣中。",
+    "description2": "我对创意和挑战充满热情，致力于为用户提供流畅的网络体验。我的终极目标是通过编程技能，实现创意和功能之间的完美结合，将想法变为现实。",
+    "art": "艺术 & 手工艺",
+    "music": "音乐",
+    "gaming": "游戏娱乐",
+    "photography": "摄影",
+    "languages": "编程语言",
+    "languageStack": [
+      "Python",
+      "C",
+      "C++",
+      "Java",
+      "JavaScript",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "SQL"
+    ],
+    "technologies": "框架 & 技术",
+    "technologyStack": [
+      "React",
+      "GraphQL",
+      "Node.js",
+      "Next.js",
+      "Bootstrap",
+      "Vite",
+      "OpenCV"
+    ],
+    "design": "设计",
+    "designStack": [
+      "Figma",
+      "Photoshop",
+      "Procreate",
+      "Clip Studio Paint",
+      "Final Cut Pro"
+    ]
+  },
+
+  "experience": [
+    {
+      "position": "后端开发工程师",
+      "company": "Intact Financial Corporation (IFC)",
+      "startDay": "2024年9月",
+      "endDay": "2024年12月",
+      "location": "蒙特利尔, 魁省",
+      "workType": "混合办公",
+      "techStack": [
+        { "tech": "Java" },
+        { "tech": "Springboot" },
+        { "tech": "Maven" },
+        { "tech": "Kafka" },
+        { "tech": "微服务架构" },
+        { "tech": "敏捷开发方法" },
+        { "tech": "CVE" }
+      ],
+      "description": "Intact Financial Corporation (IFC) 是一家成立于1809年的加拿大跨国财产及意外保险公司。拥有超过30,000名员工，IFC是加拿大最大的财产及意外保险供应商。",
+      "bulletPoints": [
+        {
+          "text": "通过解决基于Spring Boot微服务架构中95%的CVE问题，并及时更新Maven依赖，强化了团队中所有六个服务的安全性，有效降低了漏洞和风险。"
+        },
+        {
+          "text": "使用MapStruct开发后端功能，实现高效的数据映射和封装，并通过单元测试和组件测试提升在线购买流程的系统功能、可靠性和效率。"
+        },
+        {
+          "text": "利用Kafka、Dynatrace等工具以及测试驱动开发实践，优化性能并根据Intact的技术和运营环境调整解决方案。"
+        }
+      ]
+    },    
+    {
+      "position": "前端工程师",
+      "company": "APEX Mobile Media (The Altitude Platform)",
+      "startDay": "2024年1月",
+      "endDay": "2024年4月",
+      "location": "多伦多，安省",
+      "workType": "混合办公",
+      "techStack": [
+        { "tech": "JavaScript" },
+        { "tech": "Typescript" },
+        { "tech": "HTML" },
+        { "tech": "CSS" },
+        { "tech": "React" },
+        { "tech": "Node" },
+        { "tech": "Next.js" },
+        { "tech": "Vite" },
+        { "tech": "UI/UX" }
+      ],
+      "description": "位于多伦多的Apex Mobile Media, The Altitude Platform是一个基于云的媒体创意平台。它帮助用户更高效地管理和规划他们的营销活动，同时确保创意的独特性。",
+      "bulletPoints": [
+        {
+          "text": "使用React.js和Next.js重新设计了公司的营销网站，实现了用户参与度提升 30%"
+        },
+        {
+          "text": "使用Vite和TypeScript开发了一个交互式仪表盘，用于跟踪公司的销售和财务表现"
+        },
+        {
+          "text": "使用HTML、CSS和JavaScript创建了超过15个动态交互广告单元，成功用于营销活动"
+        },
+        {
+          "text": "协助在公司平台中实现了由OpenAI GPT-4提供支持的功能，利用Express.js并遵循MVC架构原则"
+        }
+      ]
+    },
+    {
+      "position": "软件质量分析师",
+      "company": "Infrastructures for Information (i4i)",
+      "startDay": "2023年5月",
+      "endDay": "2023年9月",
+      "location": "多伦多, 安省",
+      "workType": "远程办公",
+      "techStack": [
+        { "tech": "Python" },
+        { "tech": "XML" },
+        { "tech": "XSLT" },
+        { "tech": "软件测试" },
+        { "tech": "文档编写" },
+        { "tech": "软件开发生命周期 (SDLC)" },
+        { "tech": "Zoho" }
+      ],
+      "description": "位于多伦多，i4i是一家专注于XML/SGML文档处理的独立软件公司。我在那里是一名软件质量分析师的实习生，不仅仅负责手动测试，还深度参与了一个内部工具的开发。该工具的目的是自动将Excel数据转换为结构化内容，并生成唯一的代码编号，省去了手动输入数据的烦恼。",
+      "bulletPoints": [
+        {
+          "text": "使用Zoho缺陷跟踪工具，我发现了10%的软件缺陷，并确认了15%的已解决问题"
+        },
+        {
+          "text": "深入了解了不同类型的测试，包括功能测试、非功能测试、回归测试和性能测试"
+        },
+        {
+          "text": "使用XML进行配置，并使用Python（ElementTree）将Excel数据转换为具有独一无二代码编号的结构化内容"
+        },
+        {
+          "text": "通过标准化文件路径和文件I/O，提高了项目的可移植性"
+        },
+        {
+          "text": "使用Python（Tkinter）改进用户界面，使其更加用户友好"
+        }
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "GRTNow",
+      "description": "GRTNow 是一个用于查看大河交通网络（位于基奇纳/滑铁卢）的公交时刻表的平台。用户可以查看公交时刻并根据这些信息规划行程。",
+      "techStack": [
+        { "tech": "SQL" },
+        { "tech": ".Net" },
+        { "tech": "JavaScript" },
+        { "tech": "React" },
+        { "tech": "数据库管理" }
+      ]
+    },
+    {
+      "name": "Chess",
+      "description": "国际象棋是一种抽象战略棋盘游戏，适合两名玩家，模拟两个王国之间的战争，不涉及隐藏元素和偶然因素。",
+      "techStack": [
+        { "tech": "SOLID 原则" },
+        { "tech": "C++" },
+        { "tech": "XQuartz" },
+        { "tech": "MVC 架构" }
+      ]
+    },
+    {
+      "name": "EEIL-Style Citations",
+      "description": "EEIL-Style Citations 是一个为就读于Laval国际中学（EEIL）的高中生提供的自动化引用生成工具。",
+      "techStack": [
+        { "tech": "React" },
+        { "tech": "Styled Components" },
+        { "tech": "Javascript" }
+      ],
+      "link": "/eeilcitation"
+    },
+    {
+      "name": "Hackathon Global Event Website",
+      "description": "作为Hack The North的挑战项目，该项目展示了一个Hackathon的活动页面，可以查看和筛选所有即将举行的活动。",
+      "techStack": [
+        { "tech": "React" },
+        { "tech": "Javascript" },
+        { "tech": "API" },
+        { "tech": "GraphQL" }
+      ],
+      "link": "https://melissa-htn-challenge.netlify.app/"
+    },    
+    {
+      "name": "Tasteasy",
+      "description": "Tasteasy 是一个移动食谱生成应用程序，可以根据当前可用的食材帮助决策，便于用户规划餐食。",
+      "techStack": [
+        { "tech": "React Native" },
+        { "tech": "JavaScript" },
+        { "tech": "移动应用开发" }
+      ]
+    },
+    {
+      "name": "Emolock",
+      "description": "Emolock 是一种基于情感的电磁螺线管锁，通过识别正确的面部情感序列来解锁。",
+      "techStack": [
+        { "tech": "Python" },
+        { "tech": "C++" },
+        { "tech": "Arduino" },
+        { "tech": "OpenCV" },
+        { "tech": "Deepface" },
+        { "tech": "系统集成" },
+        { "tech": "硬件" }
+      ]
+    }
+  ]
+}

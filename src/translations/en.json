@@ -1,0 +1,226 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "illustrations": "Illustrations",
+    "shop": "Shop"
+  },
+
+  "hero": {
+    "welcome": "Welcome to the creative corner of",
+    "titles": {
+      "softwareEngineer": "Software Engineering Student",
+      "frontendDeveloper": "Front End Developer",
+      "uiuxDesigner": "UI/UX Designer",
+      "traditionalArtist": "Traditional Artist"
+    }
+  },
+
+  "about": {
+    "description1": "My name is Melissa Deng. I am software engineering student at the University of Waterloo by day and an artist at night.",
+    "description2": "Passionate for imagination and problem-solving, I thrive to deliver smooth web experience to users. My ultimate goal is to bridge the gap between creativity and functionality, turning ideas into realities through my coding skills.",
+    "art": "Arts & Craft",
+    "music": "Music",
+    "gaming": "Gaming",
+    "photography": "Photography",
+    "languages": "Languages",
+    "languageStack": [
+      "Python",
+      "C",
+      "C++",
+      "Java",
+      "JavaScript",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "SQL"
+    ],
+    "technologies": "Technologies",
+    "technologyStack": [
+      "React",
+      "GraphQL",
+      "Node.js",
+      "Next.js",
+      "Bootstrap",
+      "Vite",
+      "OpenCV"
+    ],
+    "design": "Design",
+    "designStack": [
+      "Figma",
+      "Photoshop",
+      "Procreate",
+      "Clip Studio Paint",
+      "Final Cut Pro"
+    ]
+  },
+
+  "experience": [
+    {
+      "position": "Backend Developer",
+      "company": "Intact Financial Corporation (IFC)",
+      "startDay": "Sep 2024",
+      "endDay": "Dec 2024",
+      "location": "Montreal, QC",
+      "workType": "Hybrid",
+      "techStack": [
+        { "tech": "Java" },
+        { "tech": "Springboot" },
+        { "tech": "Maven" },
+        { "tech": "Kafka" },
+        { "tech": "Microservices Architecture" },
+        { "tech": "Agile Methodology" },
+        { "tech": "CVE" }
+      ],
+      
+      "description": "Intact Financial Corporation (IFC) is a Canadian multinational property and casualty insurance company founded in 1809. With over 30 000 employees, Intact is the largest provider of property & casualty insurance in Canada.",
+      "bulletPoints": [
+        {
+          "text": "Strengthened the security of all six services within my team by addressing 95% of CVEs in a Spring Boot-based microservices architecture, ensuring timely updates of Maven dependencies to mitigate vulnerabilities and risks"
+        },
+        {
+          "text": "Developed backend features using MapStruct for efficient data mapping and encapsulation, and implemented unit/component tests to improve system functionality, reliability, and efficiency in online purchase processes"
+        },
+        {
+          "text": "Leveraged tools like Kafka, Dynatrace, and test-driven development practices to optimize performance and adapt solutions to Intact's technical and operational context"
+        }
+      ]
+    },
+    {
+      "position": "Front End Developer",
+      "company": "The Altitude Platform",
+      "startDay": "Jan 2024",
+      "endDay": "Apr 2024",
+      "location": "Toronto, ON",
+      "workType": "Hybrid",
+      "techStack": [
+        { "tech": "JavaScript" },
+        { "tech": "Typescript" },
+        { "tech": "HTML" },
+        { "tech": "CSS" },
+        { "tech": "React" },
+        { "tech": "Node" },
+        { "tech": "Next.js" },
+        { "tech": "Vite" },
+        { "tech": "UI/UX" }
+      ],
+      "description": "Based in Toronto, The Altitude Platform is a cloud-based media creative platform. It helps users manage and plan their marketing campaign more efficiently while ensuring creativity.",
+      "bulletPoints": [
+        {
+          "text": "Redesigned the company's marketing website using React.js and Next.js, achieving a 30% increase in user engagement"
+        },
+        {
+          "text": "Developed an interactive dashboard using Vite and TypeScript to track company sales and financial performance"
+        },
+        {
+          "text": "Created over 15 dynamic and interactive ad units with HTML, CSS, and JavaScript for successful marketing campaigns"
+        },
+        {
+          "text": "Assisted in the implementation of features powered by OpenAI GPT-4 within the company's platform, leveraging Express.js and adhering to the MVC architecture principles"
+        }
+      ]
+    },
+    {
+      "position": "Software Quality Analyst",
+      "company": "Infrastructures for Information (i4i)",
+      "startDay": "May 2023",
+      "endDay": "Sep 2023",
+      "location": "Toronto, ON",
+      "workType": "Remote",
+      "techStack": [
+        { "tech": "Python" },
+        { "tech": "XML" },
+        { "tech": "XSLT" },
+        { "tech": "Software Testing" },
+        { "tech": "Documentation" },
+        { "tech": "SDLC" },
+        { "tech": "Zoho" }
+      ],
+      "description": "i4i is an independent software company specialized in the delivery of XML / SGML document processing based in Toronto. Besides manual testing, I also worked on an internal tool that simplifies the conversion of Excel data into structured content with unique code numbers, eliminating the need for manual data entry.",
+      "bulletPoints": [
+        {
+          "text": "Identified 10% of software defects and confirmed 15% of resolved issues using Zoho bug tracking"
+        },
+        {
+          "text": "Delved into different testing types including functional, non-functional, regression, and performance testing"
+        },
+        {
+          "text": "Used XML for configuration and Python (ElementTree) to convert Excel data into structured content with unique code numbers"
+        },
+        {
+          "text": "Enhanced project's portability by standardizing file paths and file I/O"
+        },
+        {
+          "text": "Improved the user interface using Python (Tkinter) to be more user-friendly"
+        }
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "GRTNow",
+      "description": "GRTNow is a transit schedule viewing and trip planning platform for the Grand River Transit network located in Kitchener/Waterloo.",
+      "techStack": [
+        { "tech": "SQL" },
+        { "tech": ".Net" },
+        { "tech": "Javascript" },
+        { "tech": "React" },
+        { "tech": "Database Management" }
+      ]
+    },
+    {
+      "name": "Chess",
+      "description": "Chess is an abstract strategy boardgame for two players that involves no hidden elements and no elements of chance. ",
+      "techStack": [
+        { "tech": "SOLID Principles" },
+        { "tech": "C++" },
+        { "tech": "XQuartz" },
+        { "tech": "MVC Architecture" }
+      ]
+    },
+    {
+      "name": "EEIL-Style Citations",
+      "description": "EEIL-Style Citations is an automated citation generating tool for high school students attending l'École d'éducation internationale de Laval (EEIL).",
+      "techStack": [
+        { "tech": "React" },
+        { "tech": "Styled Components" },
+        { "tech": "Javascript" }
+      ],
+      "link": "/eeilcitation"
+    },
+    {
+      "name": "Hackathon Global Event Website",
+      "description": "As a challenge project for Hack The North, this project features the event page of a hackathon to view and filter all upcoming events.",
+      "techStack": [
+        { "tech": "React" },
+        { "tech": "Javascript" },
+        { "tech": "API" },
+        { "tech": "GraphQL" }
+      ],
+      "link": "https://melissa-htn-challenge.netlify.app/"
+    },
+    {
+      "name": "Tasteasy",
+      "description": "Tasteasy is a mobile recipe-generating application that facilitates decision-making for meals as it considers the currently available ingredients",
+      "techStack": [
+        { "tech": "React Native" },
+        { "tech": "JavaScript" },
+        { "tech": "Mobile Development" }
+      ]
+    },
+    {
+      "name": "Emolock",
+      "description": "The Emolock is a emotion-based electromagnetic solenoid lock that unlocks upon recognizing the correct facial emotion sequence.",
+      "techStack": [
+        { "tech": "Python" },
+        { "tech": "C++" },
+        { "tech": "Arduino" },
+        { "tech": "OpenCV" },
+        { "tech": "Deepface" }
+      ]
+    }
+  ]
+}

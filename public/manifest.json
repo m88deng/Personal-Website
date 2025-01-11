@@ -1,0 +1,13 @@
+{
+  "short_name": "Melissa Deng",
+  "name": "Melissa Deng Personal Website",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "500x500",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone"
+}
