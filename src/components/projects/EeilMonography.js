@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { copyText, outFunc, authorsDisplay, authorsFormatter, editionFormatter } from "../../utils/eeilUtils";
-import { StyledEeilSrc, StyledEeil1Grid20, StyledEeil1Grid5, StyledEeil2Grid5, StyledEeil2Grid20, StyledEeil3Grid5, StyledEeilGenerate } from "../../styles/EeilCitation.styled"
+import { copyText, outFunc, authorsDisplay, authorsFormatter, editionFormatter } from "./../../utils/eeilUtils";
+import { StyledEeilSrc, StyledEeil1Grid20, StyledEeil1Grid5, StyledEeil2Grid5, StyledEeil2Grid20, StyledEeil3Grid5, StyledEeilGenerate } from "./../../styles/EeilCitation.styled"
 
 export default function EeilMonography() {
     const [title, setTitle] = useState();
