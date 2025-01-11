@@ -11,9 +11,8 @@ function App() {
 
       <Hero />
       <Routes>
-        <Route path="/eeilcitation" element={<HomePage />} />
-        <Route path="/illustrations" element={<Artworks />} />
-        <Route path="/" element={<EeilCitationPage />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/eeilcitation" element={<EeilCitationPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

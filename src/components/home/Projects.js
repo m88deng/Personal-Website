@@ -2,14 +2,16 @@ import { StyledProjectSection, StyledProjectGrid, StyledProjectCard } from "../.
 import { StyledTechSection, StyledTechnology } from "../../styles/About.styled";
 
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
 export default function ProjectSection({ id }) {
     const [t] = useTranslation("global");
     const projects = t('projects', { returnObjects: true });
+    const navigate = useNavigate();
 
     const handleClick = (link) => {
         if (link.startsWith("/")) {
-            window.location.href = link;
+            navigate(link);
         } else {
             window.open(link, "_blank");
         }
