@@ -12,6 +12,7 @@ function App() {
       <Hero />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/illustrations" element={<Artworks />} />
         <Route path="/eeilcitation" element={<EeilCitationPage />} />
       </Routes>
       <Footer />
