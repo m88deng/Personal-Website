@@ -8,7 +8,11 @@ export default function ProjectSection({ id }) {
     const projects = t('projects', { returnObjects: true });
 
     const handleClick = (link) => {
-        window.open(link, "_blank");
+        if (link.startsWith("/")) {
+            window.location.href = link;
+        } else {
+            window.open(link, "_blank");
+        }
     };
     return (
 
