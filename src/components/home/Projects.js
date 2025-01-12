@@ -1,6 +1,5 @@
 import { StyledProjectSection, StyledProjectGrid, StyledProjectCard } from "../../styles/Projects.styled";
 import { StyledTechSection, StyledTechnology } from "../../styles/About.styled";
-import { Link } from "react-router-dom";
 
 import { useTranslation } from "react-i18next";
 
@@ -32,9 +31,9 @@ export default function ProjectSection({ id }) {
                         </StyledProjectCard>
                     )
                     return project.link ? (
-                        <Link to={project.link} style={{ textDecoration: 'none' }} key={index}>
+                        <a href={project.link} style={{ textDecoration: 'none' }} key={index}>
                             {projectContent}
-                        </Link>
+                        </a>
                     ) : (
                         projectContent
                     );
