@@ -86,7 +86,7 @@
           "text": "利用Kafka、Dynatrace等工具以及测试驱动开发实践，优化性能并根据Intact的技术和运营环境调整解决方案。"
         }
       ]
-    },    
+    },
     {
       "position": "前端工程师",
       "company": "APEX Mobile Media (The Altitude Platform)",
@@ -199,8 +199,8 @@
         { "tech": "API" },
         { "tech": "GraphQL" }
       ],
-      "link": "https://melissa-htn-challenge.netlify.app/"
-    },    
+      "link": "https://github.com/m88deng/HTN-challenge"
+    },
     {
       "name": "Tasteasy",
       "description": "Tasteasy 是一个移动食谱生成应用程序，可以根据当前可用的食材帮助决策，便于用户规划餐食。",

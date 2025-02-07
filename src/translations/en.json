@@ -74,7 +74,7 @@
         { "tech": "Agile Methodology" },
         { "tech": "CVE" }
       ],
-      
+
       "description": "Intact Financial Corporation (IFC) is a Canadian multinational property and casualty insurance company founded in 1809. With over 30 000 employees, Intact is the largest provider of property & casualty insurance in Canada.",
       "bulletPoints": [
         {
@@ -200,7 +200,7 @@
         { "tech": "API" },
         { "tech": "GraphQL" }
       ],
-      "link": "https://melissa-htn-challenge.netlify.app/"
+      "link": "https://github.com/m88deng/HTN-challenge"
     },
     {
       "name": "Tasteasy",
