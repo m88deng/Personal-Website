@@ -12,14 +12,13 @@ export const StyledHeader = styled.div`
 
   #logo {
     font-weight: 700 !important;
-    letter-spacing: 5%;
+    font-size: 1rem;         
+    line-height: 1.5rem;     
     cursor: pointer;
+    margin: 0 20px; 
   }
   .tabs{
     width: 50%;
-  }
-  .settings{
-    width: 15%;
   }
   #placeholder{
     user-select: none;

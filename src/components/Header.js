@@ -53,7 +53,7 @@ export default function Header() {
         <Headroom>
             {headerVisible && (
                 <StyledHeader className="header d-flex justify-content-between align-items-center pt-3 pb-4 px-5" style={{ zIndex: "4" }}>
-                    <div className="d-flex flex-row align-items-center pt-1 mt-1">
+                    <div className="d-flex flex-row align-items-center pt-0 mt-0">
                         {isMobile && (
                             <StyledHamburgerMenu onClick={() => setMenuOpen(!menuOpen)}>
                                 <div className={`line ${menuOpen ? "open" : ""}`} />
@@ -71,7 +71,7 @@ export default function Header() {
                         </div>
                     ) : null}
                     <div className="settings d-flex flex-row justify-content-end align-items-center pt-0 mt-0">
-                        <StyledNav className="pr-4">
+                        <StyledNav>
                             <Select value={language || 'English'} onChange={handleChange}
                                 sx={{
                                     color: 'var(--color-foreground)',
