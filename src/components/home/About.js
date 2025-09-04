@@ -1,4 +1,4 @@
-import { StyledAboutSection, StyledHobby, StyledTechnology, StyledTechSection, StyledIntroDiv, StyledPfp } from "../../styles/About.styled";
+import { StyledAboutSection, OrbitAnchor, OrbitLayer, StyledHobby, StyledHobbyUnit, StyledTechnology, StyledTechSection, StyledIntroDiv, StyledPfp } from "../../styles/About.styled";
 import Pfp from './../../assets/pfp.jpg'
 import PaletteIcon from '@mui/icons-material/Palette';
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
@@ -18,16 +18,31 @@ export default function About({ id }) {
                     <br />
                     <p className="pb-2">{t("about.description2")}</p>
                 </div>
-                <div className="col-8 col-lg-7 d-flex align-items-center ml-3 pb-3 hobbydiv order-1 order-lg-2" style={{ position: "relative" }}>
-                    <StyledPfp background={Pfp} id="profilepic"></StyledPfp>
-                    <StyledHobby id="hobbyArt"><PaletteIcon sx={{ fontSize: "35px" }} style={{ color: "white" }} /></StyledHobby>
-                    <StyledHobby id="hobbyMusic"><MusicNoteIcon sx={{ fontSize: "35px" }} style={{ color: "white" }} /></StyledHobby>
-                    <StyledHobby id="hobbyGame"><SportsEsportsIcon sx={{ fontSize: "35px" }} style={{ color: "white" }} /></StyledHobby>
-                    <StyledHobby id="hobbyPhoto"><PhotoCameraIcon sx={{ fontSize: "35px" }} style={{ color: "white" }} /></StyledHobby>
-                    <small id="hobbyArtText" className="hobbyText">{t("about.art")}</small>
-                    <small id="hobbyMusicText" className="hobbyText">{t("about.music")}</small>
-                    <small id="hobbyGameText" className="hobbyText">{t("about.gaming")}</small>
-                    <small id="hobbyPhotoText" className="hobbyText">{t("about.photography")}</small>
+                <div className="col-6 d-flex align-items-center ml-3 pb-3 hobbydiv order-1 order-lg-2">
+                    <OrbitAnchor>
+                        <StyledPfp background={Pfp} id="profilepic" />
+                        <OrbitLayer>
+                            <StyledHobbyUnit angle={60} r={155}>
+                                <StyledHobby><PaletteIcon sx={{ fontSize: 35 }} style={{ color: "white" }} /></StyledHobby>
+                                <small className="hobbyText">{t("about.art")}</small>
+                            </StyledHobbyUnit>
+
+                            <StyledHobbyUnit angle={20} r={165}>
+                                <StyledHobby><MusicNoteIcon sx={{ fontSize: 35 }} style={{ color: "white" }} /></StyledHobby>
+                                <small className="hobbyText">{t("about.music")}</small>
+                            </StyledHobbyUnit>
+
+                            <StyledHobbyUnit angle={340} r={165}>
+                                <StyledHobby><SportsEsportsIcon sx={{ fontSize: 35 }} style={{ color: "white" }} /></StyledHobby>
+                                <small className="hobbyText">{t("about.gaming")}</small>
+                            </StyledHobbyUnit>
+
+                            <StyledHobbyUnit angle={300} r={155}>
+                                <StyledHobby><PhotoCameraIcon sx={{ fontSize: 35 }} style={{ color: "white" }} /></StyledHobby>
+                                <small className="hobbyText">{t("about.photography")}</small>
+                            </StyledHobbyUnit>
+                        </OrbitLayer>
+                    </OrbitAnchor>
                 </div>
             </StyledIntroDiv>
             <h3>{t("about.languages")}</h3>
