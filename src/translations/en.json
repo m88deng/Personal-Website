@@ -59,6 +59,39 @@
 
   "experience": [
     {
+      "position": "Software Developer",
+      "company": "DRW Holdings",
+      "startDay": "May 2025",
+      "endDay": "Aug 2025",
+      "location": "Montreal, QC",
+      "workType": "In Person",
+      "techStack": [
+        { "tech": "Grafana" },
+        { "tech": "Telegraf" },
+        { "tech": "Typescript" },
+        { "tech": "Javascript" },
+        { "tech": "Go" },
+        { "tech": "Observability" },
+        { "tech": "Network" },
+        { "tech": "AI" }
+      ],
+      "description": "DRW Holdings is a proprietary trading firm based in Chicago, founded in 1992 by Don Wilson. Within DRW, the NX team is recognized as a leader in the low-latency trading space, building cutting-edge systems that push the limits of performance and efficiency.",
+      "bulletPoints": [
+        {
+          "text": "Implement an interactive legend feature in the State Timeline plugin of Grafana, an open-source observability dashboard tool, using TypeScript, enabling 60%+ of DRW NX dashboards to migrate to newer versions without losing critical functionality"
+        },
+        {
+          "text": "Developed an AI agent leveraging LangChain to translate user-described device requirements into Telegraf configuration files, automating a typically manual setup process during a 3-day NX GSS hackathon"
+        },
+        {
+          "text": "Tested the accuracy and performance of Meteomatics weather API by validating geographic mapping points using Go and collecting live metrics using Telegraf, informing scalability and integration feasibility for real-time forecasting features"
+        },
+        {
+          "text": "Designed a geo-visual panel in Grafana to plot the DRW NX network on a map with embedded low-latency metrics, improving system-wide observability and enabling faster alerting for engineering and trading teams"
+        }
+      ]
+    },
+    {
       "position": "Backend Developer",
       "company": "Intact Financial Corporation (IFC)",
       "startDay": "Sep 2024",

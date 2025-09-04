@@ -59,6 +59,39 @@
 
   "experience": [
     {
+      "position": "软件开发工程师",
+      "company": "DRW Holdings",
+      "startDay": "2025年5月",
+      "endDay": "2025年8月",
+      "location": "蒙特利尔, 魁省",
+      "workType": "现场办公",
+      "techStack": [
+        { "tech": "Grafana" },
+        { "tech": "Telegraf" },
+        { "tech": "Typescript" },
+        { "tech": "Javascript" },
+        { "tech": "Go" },
+        { "tech": "可观测性" },
+        { "tech": "网络" },
+        { "tech": "人工智能" }
+      ],
+      "description": "DRW Holdings 是一家总部位于芝加哥的自营交易公司，由 Don Wilson 于 1992 年创立。DRW 的 NX 团队在低延迟交易领域处于领先地位，专注于构建尖端系统，不断突破性能与效率的极限。",
+      "bulletPoints": [
+        {
+          "text": "使用 TypeScript 在 Grafana 的 State Timeline 插件中实现交互式图例功能，使 DRW NX 超过 60% 的仪表盘能够迁移到新版本而不丢失关键功能。"
+        },
+        {
+          "text": "利用 LangChain 开发 AI 代理，将用户描述的设备需求转化为 Telegraf 配置文件，在 NX GSS 三天黑客松期间实现原本需要人工完成的配置过程自动化。"
+        },
+        {
+          "text": "通过 Go 验证地理映射点并使用 Telegraf 收集实时指标，测试 Meteomatics 天气 API 的准确性和性能，为实时预测功能的可扩展性与集成可行性提供依据"
+        },
+        {
+          "text": "在 Grafana 中设计地理可视化面板，将 DRW NX 网络绘制在地图上并嵌入低延迟指标，提升系统整体可观测性，并加快工程和交易团队的告警响应速度"
+        }
+      ]
+    },
+    {
       "position": "后端开发工程师",
       "company": "Intact Financial Corporation (IFC)",
       "startDay": "2024年9月",

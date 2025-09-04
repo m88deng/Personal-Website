@@ -59,7 +59,40 @@
 
   "experience": [
     {
-      "position": "Développeur Backend",
+      "position": "Développeuse de logiciel",
+      "company": "DRW Holdings",
+      "startDay": "Mai 2025",
+      "endDay": "Août 2025",
+      "location": "Montréal, QC",
+      "workType": "En présentiel",
+      "techStack": [
+        { "tech": "Grafana" },
+        { "tech": "Telegraf" },
+        { "tech": "Typescript" },
+        { "tech": "Javascript" },
+        { "tech": "Go" },
+        { "tech": "Observabilité" },
+        { "tech": "Réseau" },
+        { "tech": "IA" }
+      ],
+      "description": "DRW Holdings est une société de trading propriétaire basée à Chicago, fondée en 1992 par Don Wilson. L’équipe NX de DRW est un leader reconnu dans le domaine du trading à faible latence, développant des systèmes pour maximiser la performance et l’efficacité.",
+      "bulletPoints": [
+        {
+          "text": "Conçu et intégré une légende interactive dans le plugin State Timeline de Grafana en utilisant TypeScript, ainsi permettant la migration de plus de 60 % des tableaux de bord NX vers la nouvelle verison de Grafana sans perte de fonctionnalités essentielles"
+        },
+        {
+          "text": "Développé un agent IA avec LangChain pour générer automatiquement des configurations Telegraf à partir de besoins exprimés en langage naturel, réduisant le temps de configuration manuelle lors d’un hackathon de 3 jours organisé par NX GSS"
+        },
+        {
+          "text": "Évalué la précision et la performance de l’API météo Meteomatics en validant des points de cartographie géographique avec Go et en collectant des métriques en temps réel via Telegraf, afin de mesurer la faisabilité de l’intégration pour des prévisions instantanées"
+        },
+        {
+          "text": "Conçu un panneau géo-visuel dans Grafana pour représenter le réseau NX de DRW sur une carte avec métriques de latence intégrées, renforçant l’observabilité du système et accélérant la détection d’incidents pour les équipes d’ingénierie"
+        }
+      ]
+    },
+    {
+      "position": "Développeuse backend",
       "company": "Intact Corporation Financière (IFC)",
       "startDay": "Sep 2024",
       "endDay": "Déc 2024",
@@ -88,7 +121,7 @@
       ]
     },
     {
-      "position": "Développeuse Front End",
+      "position": "Développeuse front end",
       "company": "The Altitude Platform",
       "startDay": "Jan 2024",
       "endDay": "Avr 2024",
