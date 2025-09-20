@@ -99,6 +99,10 @@ export const StyledFlipCard = styled.div`
         align-items: center;
         gap: 6px;
     }
+    
+    .debug{
+        transform: rotateY(180deg);
+    }
 `;
 
 export const StyledPfp = styled.div.withConfig({

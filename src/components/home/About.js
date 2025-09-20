@@ -24,7 +24,7 @@ export default function About({ id }) {
                 </div>
                 <div className="col-12 col-lg-5 d-flex justify-content-center align-items-center ml-3 pb-3 hobbydiv order-1 order-lg-2" style={{ position: "relative" }}>
                     <StyledFlipCard>
-                    <div className="flip-card-inner" style={{ transform: "rotateY(180deg)"}}>
+                    <div className="flip-card-inner">
                         <div className="flip-card-front">
                             <StyledPfp background={Pfp}></StyledPfp>
                         </div>
