@@ -88,9 +88,10 @@ export const StyledFlipCard = styled.div`
         padding: 4px 8px 4px 6px;
         border-radius: 0.5rem;
     }
-    
+
     .talent-row:hover {
         background-color: rgba(52, 81, 209, 0.15); /* faint blue */
+        color: var(--color-header);
     }
     
     .talent-row > div {

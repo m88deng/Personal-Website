@@ -9,6 +9,10 @@ import { useTranslation } from "react-i18next";
 export default function About({ id }) {
     const [t] = useTranslation("global")
 
+    const handleClick = (link) => {
+        window.open(link, "_blank");
+    };
+
     return (
         <StyledAboutSection id={id}>
             <h1>{t("navbar.about")}</h1>
@@ -20,30 +24,26 @@ export default function About({ id }) {
                 </div>
                 <div className="col-12 col-lg-5 d-flex justify-content-center align-items-center ml-3 pb-3 hobbydiv order-1 order-lg-2" style={{ position: "relative" }}>
                     <StyledFlipCard>
-                    <div className="flip-card-inner">
+                    <div className="flip-card-inner" style={{ transform: "rotateY(180deg)"}}>
                         <div className="flip-card-front">
                             <StyledPfp background={Pfp}></StyledPfp>
                         </div>
                         <div className="flip-card-back">
                             <h3 className="title">{t("about.talent")}</h3>
                                 <div className="talent-grid">
-                                    <div className="talent-row">
-                                        <a href="https://meiliiart.carrd.co/" target="_blank" rel="noreferrer">
+                                    <div className="talent-row" onClick={() => handleClick('https://meiliiart.carrd.co/')}>
                                         <div id="talent-arts">
                                             <PaletteIcon sx={{ fontSize: 20 }} style={{ color: "var(--color-icon)" }} />
                                             <span>{t("about.art")}</span>
                                         </div>
                                         <span>S</span>
-                                        </a>
                                     </div>
-                                    <div className="talent-row">
-                                        <a href="https://tinyurl.com/okiiita-spotify" target="_blank" rel="noreferrer">
+                                    <div className="talent-row" onClick={() => handleClick('https://open.spotify.com/user/31pniktm3pvjfxnuai4ps2niwvqi?si=a12dbc9b092e4a11')}>
                                         <div id="talent-music">
                                             <MusicNoteIcon sx={{ fontSize: 20 }} style={{ color: "var(--color-icon)" }} />
                                             <span>{t("about.music")}</span>
                                         </div>
                                         <span>S</span>
-                                        </a>
                                     </div>
                                     <div className="talent-row">
                                         <div id="talent-gaming">
