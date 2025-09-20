@@ -25,7 +25,7 @@ export default function About({ id }) {
                             <StyledPfp background={Pfp}></StyledPfp>
                         </div>
                         <div className="flip-card-back">
-                            <h3 className="title">Talent</h3>
+                            <h3 className="title">{t("about.talent")}</h3>
                                 <div className="talent-grid">
                                     <div className="talent-row">
                                         <div id="talent-arts">
