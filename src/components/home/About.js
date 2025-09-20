@@ -28,18 +28,22 @@ export default function About({ id }) {
                             <h3 className="title">{t("about.talent")}</h3>
                                 <div className="talent-grid">
                                     <div className="talent-row">
+                                        <a href="https://meiliiart.carrd.co/" target="_blank">
                                         <div id="talent-arts">
                                             <PaletteIcon sx={{ fontSize: 20 }} style={{ color: "var(--color-icon)" }} />
                                             <span>{t("about.art")}</span>
                                         </div>
                                         <span>S</span>
+                                        </a>
                                     </div>
                                     <div className="talent-row">
+                                        <a href="https://tinyurl.com/okiiita-spotify" target="_blank">
                                         <div id="talent-music">
                                             <MusicNoteIcon sx={{ fontSize: 20 }} style={{ color: "var(--color-icon)" }} />
                                             <span>{t("about.music")}</span>
                                         </div>
                                         <span>S</span>
+                                        </a>
                                     </div>
                                     <div className="talent-row">
                                         <div id="talent-gaming">
