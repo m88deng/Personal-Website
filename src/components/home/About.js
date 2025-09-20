@@ -1,4 +1,4 @@
-import { StyledAboutSection, StyledHobby, StyledTechnology, StyledTechSection, StyledIntroDiv, StyledPfp } from "../../styles/About.styled";
+import { StyledAboutSection, StyledTechnology, StyledTechSection, StyledIntroDiv, StyledPfp, StyledFlipCard } from "../../styles/About.styled";
 import Pfp from './../../assets/pfp.jpg'
 import PaletteIcon from '@mui/icons-material/Palette';
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
@@ -13,21 +13,55 @@ export default function About({ id }) {
         <StyledAboutSection id={id}>
             <h1>{t("navbar.about")}</h1>
             <StyledIntroDiv className="d-flex justify-content-between pb-3 gap-3">
-                <div className="col-12 col-lg-5 d-flex flex-column justify-content-center px-0 order-2 order-lg-1">
+                <div className="col-12 col-lg-6 d-flex flex-column justify-content-center px-0 order-2 order-lg-1">
                     <p>{t("about.description1")}</p>
                     <br />
                     <p className="pb-2">{t("about.description2")}</p>
                 </div>
-                <div className="col-8 col-lg-7 d-flex align-items-center ml-3 pb-3 hobbydiv order-1 order-lg-2" style={{ position: "relative" }}>
-                    <StyledPfp background={Pfp} id="profilepic"></StyledPfp>
-                    <StyledHobby id="hobbyArt"><PaletteIcon sx={{ fontSize: "35px" }} style={{ color: "white" }} /></StyledHobby>
-                    <StyledHobby id="hobbyMusic"><MusicNoteIcon sx={{ fontSize: "35px" }} style={{ color: "white" }} /></StyledHobby>
-                    <StyledHobby id="hobbyGame"><SportsEsportsIcon sx={{ fontSize: "35px" }} style={{ color: "white" }} /></StyledHobby>
-                    <StyledHobby id="hobbyPhoto"><PhotoCameraIcon sx={{ fontSize: "35px" }} style={{ color: "white" }} /></StyledHobby>
-                    <small id="hobbyArtText" className="hobbyText">{t("about.art")}</small>
-                    <small id="hobbyMusicText" className="hobbyText">{t("about.music")}</small>
-                    <small id="hobbyGameText" className="hobbyText">{t("about.gaming")}</small>
-                    <small id="hobbyPhotoText" className="hobbyText">{t("about.photography")}</small>
+                <div className="col-12 col-lg-5 d-flex justify-content-center align-items-center ml-3 pb-3 hobbydiv order-1 order-lg-2" style={{ position: "relative" }}>
+                    <StyledFlipCard>
+                    <div className="flip-card-inner">
+                        <div className="flip-card-front">
+                            <StyledPfp background={Pfp}></StyledPfp>
+                        </div>
+                        <div className="flip-card-back">
+                            <h3 className="title">Talent</h3>
+                                <div className="talent-grid">
+                                    <div className="talent-row">
+                                        <div id="talent-arts">
+                                            <PaletteIcon sx={{ fontSize: 20 }} style={{ color: "var(--color-icon)" }} />
+                                            <span>{t("about.art")}</span>
+                                        </div>
+                                        <span>S</span>
+                                    </div>
+                                    <div className="talent-row">
+                                        <div id="talent-music">
+                                            <MusicNoteIcon sx={{ fontSize: 20 }} style={{ color: "var(--color-icon)" }} />
+                                            <span>{t("about.music")}</span>
+                                        </div>
+                                        <span>S</span>
+                                    </div>
+                                    <div className="talent-row">
+                                        <div id="talent-gaming">
+                                            <SportsEsportsIcon sx={{ fontSize: 20 }} style={{ color: "var(--color-icon)" }} />
+                                            <span>{t("about.gaming")}</span>
+                                        </div>
+                                        <span>B</span>
+                                    </div>
+                                    <div className="talent-row">
+                                        <div id="talent-photography">
+                                            <PhotoCameraIcon sx={{ fontSize: 20 }} style={{ color: "var(--color-icon)" }} />
+                                            <span>{t("about.photography")}</span>
+                                        </div>
+                                        <span>A</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </StyledFlipCard>
+
+
+                    
                 </div>
             </StyledIntroDiv>
             <h3>{t("about.languages")}</h3>
