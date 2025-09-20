@@ -28,7 +28,7 @@ export default function About({ id }) {
                             <h3 className="title">{t("about.talent")}</h3>
                                 <div className="talent-grid">
                                     <div className="talent-row">
-                                        <a href="https://meiliiart.carrd.co/" target="_blank">
+                                        <a href="https://meiliiart.carrd.co/" target="_blank" rel="noreferrer">
                                         <div id="talent-arts">
                                             <PaletteIcon sx={{ fontSize: 20 }} style={{ color: "var(--color-icon)" }} />
                                             <span>{t("about.art")}</span>
@@ -37,7 +37,7 @@ export default function About({ id }) {
                                         </a>
                                     </div>
                                     <div className="talent-row">
-                                        <a href="https://tinyurl.com/okiiita-spotify" target="_blank">
+                                        <a href="https://tinyurl.com/okiiita-spotify" target="_blank" rel="noreferrer">
                                         <div id="talent-music">
                                             <MusicNoteIcon sx={{ fontSize: 20 }} style={{ color: "var(--color-icon)" }} />
                                             <span>{t("about.music")}</span>
