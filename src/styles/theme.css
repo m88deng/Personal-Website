@@ -1,0 +1,238 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --font-size: 16px;
+  --background: #070a11;
+  --foreground: #dde8f8;
+  --card: #0c1020;
+  --card-foreground: #dde8f8;
+  --popover: #0c1020;
+  --popover-foreground: #dde8f8;
+  --primary: #5a88d8;
+  --primary-foreground: #070a11;
+  --secondary: #111828;
+  --secondary-foreground: #dde8f8;
+  --muted: #141828;
+  --muted-foreground: #6878a0;
+  --accent: #8858c8;
+  --accent-foreground: #dde8f8;
+  --destructive: #c04040;
+  --destructive-foreground: #dde8f8;
+  --border: rgba(200, 215, 248, 0.07);
+  --input: transparent;
+  --input-background: #111828;
+  --switch-background: #1e2840;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --ring: #5a88d8;
+  --chart-1: #5a88d8;
+  --chart-2: #8858c8;
+  --chart-3: #58c8a8;
+  --chart-4: #c8a858;
+  --chart-5: #c85878;
+  --radius: 0.125rem;
+  --sidebar: #0c1020;
+  --sidebar-foreground: #dde8f8;
+  --sidebar-primary: #5a88d8;
+  --sidebar-primary-foreground: #070a11;
+  --sidebar-accent: #141828;
+  --sidebar-accent-foreground: #dde8f8;
+  --sidebar-border: rgba(200, 215, 248, 0.07);
+  --sidebar-ring: #5a88d8;
+
+  /* Centralized Terminal Theme Palette */
+  --term-bg: #1e1f2b;
+  --term-bg-alt: #21222c;
+  --term-header: #191a23;
+  --term-header-alt: #13141b;
+  --term-header-strip: #191a24;
+  --term-border: #2e3048;
+
+  /* Accent Colors and their Pill Component Variants */
+  --term-accent-purple: #b4a0ff;
+  --term-accent-purple-bg: rgba(180, 160, 255, 0.12);
+  --term-accent-purple-border: rgba(180, 160, 255, 0.18);
+
+  --term-accent-orange: #feb373;
+  --term-accent-orange-bg: rgba(254, 179, 115, 0.12);
+  --term-accent-orange-border: rgba(254, 179, 115, 0.18);
+
+  --term-accent-green: #72c47a;
+  --term-accent-green-bg: rgba(114, 196, 122, 0.12);
+  --term-accent-green-border: rgba(114, 196, 122, 0.18);
+
+  --term-accent-blue: #5a88d8;
+  --term-accent-blue-bg: rgba(90, 136, 216, 0.12);
+  --term-accent-blue-border: rgba(90, 136, 216, 0.18);
+
+  --term-accent-red: #e07882;
+  --term-accent-red-bg: rgba(224, 120, 130, 0.12);
+  --term-accent-red-border: rgba(224, 120, 130, 0.18);
+
+  --term-accent-gray: rgba(255, 255, 255, 0.32);
+  --term-accent-gray-bg: rgba(255, 255, 255, 0.06);
+  --term-accent-gray-border: rgba(255, 255, 255, 0.1);
+
+  --term-accent-pink: #ff2d7a;
+  --term-accent-pink-bg: rgba(255, 45, 122, 0.12);
+  --term-accent-pink-border: rgba(255, 45, 122, 0.18);
+
+  --term-accent-cyan: #00e5c8;
+  --term-accent-cyan-bg: rgba(0, 229, 200, 0.12);
+  --term-accent-cyan-border: rgba(0, 229, 200, 0.18);
+
+  --term-accent-yellow: #febc2e;
+  --term-accent-yellow-bg: rgba(254, 188, 46, 0.12);
+  --term-accent-yellow-border: rgba(254, 188, 46, 0.18);
+}
+
+.dark {
+  --background: #070a11;
+  --foreground: #dde8f8;
+  --card: #0c1020;
+  --card-foreground: #dde8f8;
+  --popover: #0c1020;
+  --popover-foreground: #dde8f8;
+  --primary: #5a88d8;
+  --primary-foreground: #070a11;
+  --secondary: #111828;
+  --secondary-foreground: #dde8f8;
+  --muted: #141828;
+  --muted-foreground: #6878a0;
+  --accent: #8858c8;
+  --accent-foreground: #dde8f8;
+  --destructive: #c04040;
+  --destructive-foreground: #dde8f8;
+  --border: rgba(200, 215, 248, 0.07);
+  --input: rgba(200, 215, 248, 0.05);
+  --ring: #5a88d8;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+  --color-switch-background: var(--switch-background);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 2px);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(
+    --sidebar-primary-foreground
+  );
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(
+    --sidebar-accent-foreground
+  );
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-term-bg: var(--term-bg);
+  --color-term-bg-alt: var(--term-bg-alt);
+  --color-term-header: var(--term-header);
+  --color-term-header-alt: var(--term-header-alt);
+  --color-term-header-strip: var(--term-header-strip);
+  --color-term-accent-pink: var(--term-accent-pink);
+  --color-term-accent-pink-bg: var(--term-accent-pink-bg);
+  --color-term-accent-pink-border: var(--term-accent-pink-border);
+  --color-term-accent-cyan: var(--term-accent-cyan);
+  --color-term-accent-cyan-bg: var(--term-accent-cyan-bg);
+  --color-term-accent-cyan-border: var(--term-accent-cyan-border);
+  --color-term-accent-orange: var(--term-accent-orange);
+  --color-term-accent-yellow: var(--term-accent-yellow);
+  --color-term-accent-yellow-bg: var(--term-accent-yellow-bg);
+  --color-term-accent-yellow-border: var(--term-accent-yellow-border);
+  --color-term-accent-purple: var(--term-accent-purple);
+  --color-term-accent-purple-bg: var(--term-accent-purple-bg);
+  --color-term-accent-purple-border: var(--term-accent-purple-border);
+  --color-term-accent-orange: var(--term-accent-orange);
+  --color-term-accent-orange-bg: var(--term-accent-orange-bg);
+  --color-term-accent-orange-border: var(--term-accent-orange-border);
+  --color-term-accent-green: var(--term-accent-green);
+  --color-term-accent-green-bg: var(--term-accent-green-bg);
+  --color-term-accent-green-border: var(--term-accent-green-border);
+  --color-term-accent-blue: var(--term-accent-blue);
+  --color-term-accent-blue-bg: var(--term-accent-blue-bg);
+  --color-term-accent-blue-border: var(--term-accent-blue-border);
+  --color-term-accent-red: var(--term-accent-red);
+  --color-term-accent-red-bg: var(--term-accent-red-bg);
+  --color-term-accent-red-border: var(--term-accent-red-border);
+  --color-term-accent-gray: var(--term-accent-gray);
+  --color-term-accent-gray-bg: var(--term-accent-gray-bg);
+  --color-term-accent-gray-border: var(--term-accent-gray-border);
+  --color-term-border: var(--term-border);
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-body: "Lato", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-symbols: "Noto Sans Symbols 2", "JetBrains Mono", monospace;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Lato", system-ui, sans-serif;
+    font-weight: 300;
+  }
+
+  html {
+    font-size: var(--font-size);
+    scrollbar-width: thin;
+    scrollbar-color: rgba(200, 215, 248, 0.12) transparent;
+  }
+
+  h1,
+  h2 {
+    font-family: "EB Garamond", Georgia, serif;
+    font-weight: 400;
+    line-height: 1.1;
+  }
+
+  h3,
+  h4 {
+    font-family: "Lato", system-ui, sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+  }
+}
+
+.font-display {
+  font-family: "Cormorant Garamond", Georgia, serif;
+}
+
+.font-title {
+  font-family: "Fraunces", Georgia, serif;
+}
+
+.font-mono-code {
+  font-family: "JetBrains Mono", monospace;
+}
