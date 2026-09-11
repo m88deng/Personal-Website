@@ -57,7 +57,7 @@ export default function Contact() {
           — Louis Brown.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4">
+        <div className="flex flex-col sm:flex-row flex-wrap gap-4">
           <a
             href="mailto:deng_melissa@outlook.com"
             className="flex items-center gap-3 px-8 py-4 bg-primary text-primary-foreground font-mono-code text-xs tracking-widest uppercase hover:bg-primary/85 transition-colors duration-200"
@@ -66,12 +66,25 @@ export default function Contact() {
             deng_melissa@outlook.com
           </a>
           <a
-            href="#"
+            href="https://github.com/m88deng"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-3 px-8 py-4 border border-border font-mono-code text-xs tracking-widest uppercase hover:border-foreground/30 transition-colors duration-200 text-foreground"
           >
             <SiGithub className="w-4 h-4" />
             github/m88deng
           </a>
+          {/* Instagram link (commented out for later)
+          <a
+            href="https://www.instagram.com/meiliiart/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 px-8 py-4 border border-border font-mono-code text-xs tracking-widest uppercase hover:border-foreground/30 transition-colors duration-200 text-foreground"
+          >
+            <SiInstagram className="w-4 h-4" />
+            instagram/meiliiart
+          </a>
+          */}
         </div>
 
         <div className="mt-16 pt-8 border-t border-border flex items-center justify-between">

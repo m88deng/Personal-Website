@@ -12,6 +12,7 @@ const WIN_SIZES = {
   xl: 640,
 } as const;
     
+/*
 function SlotCounter({ value, trigger }: { value: string; trigger: boolean }) {
   const [displayValue, setDisplayValue] = useState("");
 
@@ -57,6 +58,7 @@ function SlotCounter({ value, trigger }: { value: string; trigger: boolean }) {
 
   return <span>{displayValue}</span>;
 }
+*/
 
 type WinId = "me" | "engineer" | "artist" | "ascii";
 
@@ -87,12 +89,14 @@ export default function About() {
     return () => clearInterval(interval);
   }, [inView, asciiHovered]);
 
+  /*
   const stats = [
     { v: "06", u: "WKT", l: "Internships" },
     { v: "20+", u: "PRS", l: "Shipped" },
     { v: "85+", u: "WRK", l: "Artworks" },
     { v: "01", u: "VOL", l: "Manga" },
   ];
+  */
 
   const zFor = (id: WinId) => (zOrder.indexOf(id) + 1) * 10;
   const bringFront = (id: WinId) =>
@@ -115,7 +119,7 @@ export default function About() {
       </motion.div>
 
       {/* ── Floating terminal windows ───────────────────────────── */}
-      <div ref={containerRef} className="relative mb-4 w-full md:h-[720px] flex flex-col md:block gap-8">
+      <div ref={containerRef} className="relative w-full md:h-[640px] flex flex-col md:block gap-8">
 
         {/* ME.EXE ── foremost by default */}
         <motion.div
@@ -296,7 +300,8 @@ export default function About() {
 
       </div>
 
-      {/* Stats */}
+      {/* Stats (commented out) */}
+      {/*
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -316,6 +321,7 @@ export default function About() {
         </div>
         <div className="absolute top-4 right-4 font-mono-code text-[9px] text-muted-foreground/35">[04 / 04]</div>
       </motion.div>
+      */}
     </section>
   );
 }
